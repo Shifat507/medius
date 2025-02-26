@@ -29,7 +29,7 @@ const AboutUs = () => {
                 <h2 className='text-3xl font-bold text-green-800 pt-5 md:pt-36'>Our mission</h2>
                 <h4 className='text-4xl font-bold'>We’re making homeownership simpler,  faster — <br /> and most importantly, more accessible for all <br />Americans.</h4>
             </div>
-            <div>
+            <div className='mb-16'>
                 <Stories></Stories>
             </div>
 
@@ -45,7 +45,7 @@ const AboutUs = () => {
             </div>
 
             {/* Sponsors */}
-            <div className="py-12 text-center mb-16">
+            <div className="py-12 text-center my-16">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-6">Backed by</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     {sponsors.map((sponsor) => (

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stories = () => {
     return (
-        <div className='flex flex-col md:flex-row items-center gap-8 w-10/12 mx-auto mb-16'>
+        <div className='flex flex-col md:flex-row items-center gap-8 w-10/12 mx-auto mb-28'>
             <div>
                 <h2 className='text-4xl font-bold mb-8'>The status quo is broken</h2>
                 <p className='text-md text-gray-600'>
