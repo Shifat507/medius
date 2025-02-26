@@ -21,7 +21,7 @@ const Banner = () => {
                             Mortgages <br />
                             made simple
                         </h1>
-                        <div className='flex flex-col md:flex-row md:gap-72 items-center mb-16'>
+                        <div className='flex flex-col md:flex-row md:gap-96 items-center mb-16'>
                             <div>
                                 <button className="bg-[#1ee07f] text-[#295259] px-8 py-3 rounded-3xl hover:bg-[#004733] hover:text-white">Start my approval
                                 </button>
@@ -31,7 +31,7 @@ const Banner = () => {
                             <div >
                                 <div className='flex'>
                                     <div>
-                                        <FcGoogle size={30}></FcGoogle>
+                                        <FcGoogle size={25}></FcGoogle>
                                     </div>
                                     <div className="rating">
                                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
