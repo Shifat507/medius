@@ -66,13 +66,13 @@ const Timeline = () => {
       <div className="relative border-l-4 border-gray-400">
         {
           timelineData.map((item, index) => (
-            <div key={index} className="mb-10 ml-6">
+            <div key={index} className="mb-10 md:ml-6">
               {/* Year Badge */}
-              <div className="absolute -left-6 flex items-center justify-center bg-green-700 text-white font-semibold rounded-3xl px-4 py-1">
+              <div className="md:absolute md:-left-6 flex items-center justify-center bg-green-700 text-white font-semibold rounded-3xl px-4 py-1">
                 {item.year}
               </div>
               {/* Timeline Content */}
-              <div className="p-6 bg-gray-200 rounded-lg shadow-lg w-80">
+              <div className="p-2 md:p-6 bg-gray-200 rounded-lg shadow-lg w-80">
                 <p className="text-gray-600 mb-2">{item.description}</p>
                 {
                   item.year === 'Today' ? <>
