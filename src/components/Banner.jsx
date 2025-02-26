@@ -11,7 +11,7 @@ const Banner = () => {
                 {/* <div className="hero-overlay bg-opacity-60"></div> */}
                 <div className="hero-content text-neutral-content text-center">
                     <div className="">
-                        <h1 className="mb-5 text-7xl font-bold text-[#1ee07f]">Mortgages <br />
+                        <h1 className="mb-5 text-4xl md:text-7xl font-bold text-[#1ee07f]">Mortgages <br />
                         made simple</h1>
                         
                         <button className="btn btn-primary">Start my approval</button>

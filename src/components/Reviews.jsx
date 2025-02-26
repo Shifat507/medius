@@ -7,7 +7,7 @@ import review3 from '../assets/review3.png';
 
 const Reviews = () => {
     return (
-        <div className='mt-16 flex flex-col md:flex-row gap-4 md:gap-16 justify-center items-center'>
+        <div className='mt-16 flex flex-col md:flex-row gap-4 md:gap-56 justify-center items-center'>
 
             <div className="w-[270px] md:w-[360px] h-[400px] relative">
                 <div className="carousel w-full h-full">
@@ -43,15 +43,15 @@ const Reviews = () => {
                     </div>
                 </div>
 
-                <div className="flex w-full justify-center gap-2 py-2">
-                    <a href="#item1" className="btn btn-xs">1</a>
-                    <a href="#item2" className="btn btn-xs">2</a>
-                    <a href="#item3" className="btn btn-xs">3</a>
+                <div className="flex w-full justify-center gap-2 py-2 ">
+                    <a href="#item1" className="border-4 border-green-600 px-3 py-1 rounded-3xl text-sm font-semibold">Jenny</a>
+                    <a href="#item2" className="border-4 border-green-600 px-3 py-1 rounded-3xl text-sm font-semibold">Flora Irin</a>
+                    <a href="#item3" className="border-4 border-green-600 px-3 py-1 rounded-3xl text-sm font-semibold">Sam</a>
                 </div>
             </div>
 
             <div>
-                <h2 className='text-5xl font-bold'>Find out why <br /> we’re better.</h2>
+                <h2 className='text-5xl md:text-7xl font-bold'>Find out why <br /> we’re better.</h2>
                 <button className='bg-[#004733] text-white px-6 py-2 rounded-2xl hover:bg-[#067A59] mt-6'>
                     See all our stories
                 </button>
