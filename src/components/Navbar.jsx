@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className='hover:bg-white hover:text-black hover:rounded-md'><Link href="/startPage">Start Page</Link></li>
     </>
     return (
-        <div className="navbar bg-[#004733] text-white">
+        <div className="navbar  bg-[#004733] text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

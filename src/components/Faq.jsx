@@ -55,19 +55,19 @@ const Faq = () => {
                 </div>
 
                 {/* Card 3 */}
-                <div className="card bg-[#f0f7f1] shadow-md p-12 flex flex-col md:flex-row col-span-2 gap-8 items-center">
+                <div className="card bg-[#f0f7f1] shadow-md p-12 flex flex-col md:flex-row col-span-2 gap-8 ">
 
                     <Image
                         src={withLaptop}
-                        width={80}
-                        height={50}
+                        width={240}
+                        height={110}
                         // objectFit='cover'
                         alt="Family using laptop"
                         className="rounded-md object-cover w-full h-full"
                     />
                     <div>
                         <h3 className="text-2xl font-bold mb-2 text-green-950">Better HELOC</h3>
-                        <p className="text-sm text-gray-700">
+                        <p className="text-sm text-green-950">
                             Get cash from your home equity in as little as 7 days with Better HELOC.
                         </p>
                         <button className="btn btn-circle btn-outline self-start mt-4">→</button>
@@ -75,7 +75,7 @@ const Faq = () => {
                 </div>
 
                 {/* Card 4 */}
-                <div className="card bg-[#f0f7f1] shadow-md p-5 flex flex-col">
+                <div className="card bg-[#f0f7f1] shadow-md p-12 flex flex-col">
                     <h3 className="text-2xl font-bold mb-2 text-green-950">Insurance</h3>
                     <button className="btn btn-circle btn-outline self-start my-4">→</button>
                     <Image
