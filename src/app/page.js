@@ -8,11 +8,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Banner></Banner>
       <Reviews></Reviews>
       <Faq></Faq>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
