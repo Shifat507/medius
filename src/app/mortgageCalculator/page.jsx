@@ -171,8 +171,8 @@ const MortgageCalculator = () => {
                     <div className='flex flex-col items-center mt-12'>
                         <h2 className='text-xl font-semibold mb-4'>Monthly Mortgage Breakdown <br /> <span className='text-3xl font-semibold'>$ {total}/mo</span></h2>
                         <div className=''>
-                            <BarChart width={window.innerWidth < 640 ? 280 : 600}
-                                height={window.innerHeight < 640 ? 150 : 300} data={chartData}>
+                            <BarChart width="100%"
+                                height="100%" data={chartData}>
                                 <CartesianGrid strokeDasharray="3 3" />
                                 <XAxis dataKey="name" />
                                 <YAxis />
