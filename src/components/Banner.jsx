@@ -1,6 +1,7 @@
 import React from 'react';
 import mobileImg from '../assets/phone.png';
 import { FcGoogle } from "react-icons/fc";
+import Link from 'next/link';
 
 const Banner = () => {
     return (
@@ -23,9 +24,9 @@ const Banner = () => {
                         </h1>
                         <div className='flex flex-col md:flex-row md:gap-96 items-center mb-16'>
                             <div>
-                                <button className="bg-[#1ee07f] text-[#295259] px-8 py-3 rounded-3xl hover:bg-[#004733] hover:text-white">Start my approval
-                                </button>
-                                <p className='text-[12px]'>⏱ 3 min | No credit impact</p>
+                                <Link href="/start" className="bg-[#1ee07f] text-[#295259] px-8 py-3 rounded-3xl hover:bg-[#004733] hover:text-white">Start my approval
+                                </Link>
+                                <p className='text-[12px] mt-3'>⏱ 3 min | No credit impact</p>
                             </div>
 
                             <div >

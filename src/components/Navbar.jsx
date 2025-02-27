@@ -29,8 +29,11 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            {links}
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
+                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/aboutUs">About Us</Link></li>
+                            <li><Link href="/mortgageCalculator">Mortgage Calculator</Link></li>
+                            <li><Link href="/start">Start Page</Link></li>
                         </ul>
                     </div>
                     <a className="text-xl cursor-pointer">Medius</a>
